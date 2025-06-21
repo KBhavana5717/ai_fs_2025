@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            .container{
+                width: 100%;
+                height: 100%;
+                background-color: aqua;
+                grid-template-rows: 100px 1fr;
+                display: grid;
+
+            }
+            .header{
+                width:100%;
+                background-color:yellowgreen ;
+
+            }
+            .main{
+                background-color: blue;
+                display: grid;
+                grid-template-columns: 200px 1fr;
+            }
+            .sidebar{
+                background-color: pink;
+            }
+            .content{
+                background-color: orangered;
+                display:grid;
+                grid-template-rows: 1fr 100px;
+            }
+            .data{
+                background-color: violet;
+            }
+            .footer{
+                background-color: beige;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">header</div>
+            <div class="main">
+                <div class="sidebar">sidebar</div>
+                <div class="content">
+                    <div class="data">data</div>
+                    <div class="footer">footer</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
