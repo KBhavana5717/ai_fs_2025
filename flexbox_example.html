@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <style>
+            .header{
+                width:100%;
+                height:150px;
+                background-color:aqua;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                position: relative;
+             }
+             .logo{
+              
+               }
+               .center{
+                 position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+              }
+               
+            
+             .box1{
+                background-color: coral;
+                width:350px;
+                height:100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: fixed;
+                top:180px;
+                left:0px;
+             }
+             .box2{
+                background-color:coral;
+                width:350px;
+                height:100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: fixed;
+                top:180px;
+                left:400px;
+                
+            }
+            .box3{
+                background-color:coral;
+                width:350px;
+                height:100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: fixed;
+                top:180px;
+                left:800px;
+                
+            }
+             .box4{
+                background-color:coral;
+                width:350px;
+                height:100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: fixed;
+                top:180px;
+                left:1200px;
+                
+            }
+            .contact{
+                width:50%;
+                height:300px;
+                background-color: pink;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                top:350px;
+                left:400px;
+            }
+
+        </style>
+    </head>
+    <body>
+            <div class="header">
+                <div class="logo">
+          <img src="https://img.freepik.com/premium-vector/travel-logo-design_584524-209.jpg?semt=ais_hybrid&w=740" width="90px" height="90px"></div>
+              <div class="center" > <h1>Welcome to My Website</h1></div>
+                </div>
+            </div>
+                <div class="box1">
+                <strong>Developer Friendly<br>clean and organized code for easy development. </strong>
+                </div>
+                <div class="box2">
+                    <strong>Responsive Design<br>looks great on all devices using media queries.</strong>
+                </div>
+                <div class="box3">
+                    <strong>Customizable<br>Built using modern CSS feature like flex and grid.</strong>
+                </div>
+                <div class="box4">
+                    <strong>Queries<br>looks great on all devices using media queries.</strong>
+                </div>
+                <div class="contact">
+                   
+        <form action="/submit-form" method="post">
+               <label for="name">Name:</label><br>
+               <input type="text" id="name" name="name" required><br><br>
+
+               <label for="email">Email:</label><br>
+               <input type="email" id="email" name="email" required><br><br>
+
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+              <input type="submit" value="Submit">
+  </form>
+                </div>
+    </body>
+</html>
